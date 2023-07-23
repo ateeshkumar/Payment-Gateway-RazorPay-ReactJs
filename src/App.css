@@ -1,0 +1,30 @@
+*{
+  background: rgb(247, 247, 247);
+  margin:0 15px;
+}
+.img{
+  display: flex;
+  border: 4px double rgb(2, 255, 10);
+  align-items: center;
+  margin: 12px 0;
+  /* background-color: #fff; */
+
+}
+.img>img{
+  height: 150px;
+  width: 200px;
+}
+.btn{
+  border: 6px double rgb(2, 255, 10);
+  color: rgb(2, 255, 10);
+  font-weight: bold;
+  /* background: yellow; */
+  cursor: pointer;
+  height: 50px;
+  width: 120px;
+}
+.btn:hover{
+  background: rgb(2, 255, 10);
+  color: black;
+  font-size: 15px;
+}
